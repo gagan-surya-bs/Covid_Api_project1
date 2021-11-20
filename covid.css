@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #efefef;
+
+}
+#date{
+    margin-left: 50px;
+    margin-top: 10x;
+}
+section h1{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-size: 40px;
+}
+section article main {
+   background-color: #efefef;
+   height: 30vh;
+   width: 70%;
+   margin: 0px auto;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   input{
+       width:90%;
+       height: 50px;
+   }
+   button{
+       width: 10%;
+       height: 50px;
+   }
+   #search{
+       font-size: 20px;
+       border: 2px solid rgba(233, 23, 65, 0.411);
+       border-radius: 15px;
+   }
+   #btn1{
+       background-color: rgb(165, 235, 165);
+       width: 260px;
+       height: 70px;
+       border: 1px solid rgb(170, 241, 170) ;
+       border-radius: 10px ;
+       margin-left: 200px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+   #btn1:hover{
+       transform: scale(1.1);
+       font-family: cursive;
+       color: rgb(243, 69, 21);
+   }
+   #btn2{
+    background-color: rgb(238, 210, 214);
+    width: 380px;
+    height: 70px;
+    border: 1px solid rgb(240, 175, 185);
+    border-radius: 10px ;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+
+}
+#btn2:hover{
+    transform: scale(1.1);
+    font-family: cursive;
+    color: rgb(243, 69, 21);
+}
+#btn3{
+    background-color: rgb(165, 235, 165);
+    width: 260px;
+    height: 70px;
+    border: 1px solid rgb(106, 241, 106);
+    border-radius: 10px ;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn3:hover{
+    transform: scale(1.1);
+    font-family: cursive;
+    color: rgb(243, 69, 21);
+}
+#btn4{
+    background-color: rgb(238, 210, 214);
+    width: 380px;
+    height: 70px;
+    border: 1px solid rgb(240, 175, 185);
+    border-radius: 10px ;
+    margin-left: 190px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #btn4:hover{
+        transform: scale(1.1);
+        font-family: cursive;
+        color: rgb(243, 69, 21);
+    }
+#template{
+    display: flex;
+    }
+#template2{
+    display: flex;
+}
